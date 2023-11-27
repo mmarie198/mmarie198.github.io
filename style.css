@@ -90,6 +90,7 @@ h6,
   position: relative;
   overflow: hidden;
   width:fit-content;
+ 
 }
 
 .item .item-wrap:after {
@@ -109,7 +110,13 @@ h6,
 .item .item-wrap img {
   transition: 0.3s transform ease;
   transform: scale(1);
-  max-height:300px;
+}
+
+.education {
+  padding-left: 3rem;
+}
+.experience {
+  padding-left: 3rem;
 }
 
 .item .item-wrap>.work-info {
@@ -135,6 +142,26 @@ h6,
   font-size: 14px;
   text-transform: uppercase;
   letter-spacing: 0.2rem;
+}
+
+.section-a {
+  padding-left: 3rem;
+}
+
+.section-b {
+  padding-left: 2rem;
+}
+
+.about-img {
+  display: block;
+  position: relative;
+  overflow: hidden;
+  width:fit-content;
+  margin-left: 2rem;
+}
+
+.about-img img {
+  max-height:400px;
 }
 
 li {
